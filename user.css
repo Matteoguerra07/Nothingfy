@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+* {
+  font-family: 'Share Tech Mono', monospace !important;
+  letter-spacing: 0.03em;
+  font-weight: 400 !important;
+}
+
+html:not(.fullscreen) .playback-bar {
+  position: absolute !important;
+  width: 94% !important;
+  left: 4% !important;
+  bottom: 10px !important;
+}
+
+.x-progressBar-progressBarBg {
+  height: 4px !important;
+  border-radius: 0 !important;
+}
+
+.x-progressBar-fillColor {
+  height: 4px !important;
+}
+
+.playback-bar__progress-time-elapsed,
+.main-playbackBarRemainingTime-container {
+  opacity: 1 !important;
+  position: relative !important;
+  bottom: unset !important;
+  font-size: 9px !important;
+}
+
+.main-entityHeader-backgroundColor,
+.main-entityHeader-overlay,
+.main-actionBarBackground-background,
+.x-441-entityHeader-overlay {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+.main-topBar-background,
+.main-topBar-overlay {
+  background: none !important;
+  background-color: var(--spice-main) !important;
+  background-image: none !important;
+}
+
+.os-scrollbar-handle {
+  border-radius: 10px;
+}
+
+.main-entityHeader-shadow {
+  box-shadow: none !important;
+}
+
+.under-main-view {
+  background: none !important;
+  background-image: none !important;
+}
+
+.playlist-playlist-actionBarBackground-background {
+  background: none !important;
+  background-color: transparent !important;
+  background-image: none !important;
+}
+
+.main-trackList-trackList {
+  background-color: var(--spice-sidebar) !important;
+  border-radius: 20px;
+  padding-inline: 8px;
+  border-color: var(--spice-button);
+}
+
+.e-10180-legacy-button-primary:hover,
+.e-10180-button-primary__inner {
+  background-color: var(--spice-button);
+}
+
+.main-trackList-trackListHeaderRow{
+  border-color: var(--spice-button);
+}
+
+a:hover {
+  color: var(--spice-button) !important;
+  text-decoration: none !important;
+}
