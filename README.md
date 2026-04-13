@@ -22,7 +22,7 @@ Spicetfy theme inspired by the Nothing® products.
 ### CMFBlue
 ![CMFBlack](screenshots/CMFBlue.png)
 
-##Configuration
+## Configuration
 
 1. Clone this repository into your Spicetify themes folder:
 
